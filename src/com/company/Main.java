@@ -6,10 +6,13 @@ public class Main {
 	// write your code here
         int a;
         int b;
-        int resultat;
+        int resultat1;
+        int resultat2;
         a = 1;
         b = 2;
-        resultat = a + b;
-        System.out.println(resultat);
+        resultat1 = a + b;
+        resultat2 = a * b;
+        System.out.println(resultat1);
+        System.out.println(resultat2);
     }
 }
